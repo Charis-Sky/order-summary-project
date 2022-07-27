@@ -5,23 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Red+Hat+Display">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Order summary card</title>
 
 </head>
 <body>
-<div class="container">
-  <div class="img"><img alt="illustration-hero" src="images/illustration-hero.svg"></div>
+  <div class="outer">
+    <div class="container">
+      <div id="img1"><img alt="illustration-hero" src="images/illustration-hero.svg" id="girl"></div>
 
-  <h1>Order Summary</h1>
+      <h1>Order Summary</h1>
 
-  <div>You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!</div>
+      <p id="margin">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</p>
 
-  <div><img alt="music icon" src="images/icon-music.svg">Annual Plan <a href="#">Change</a> <br> $59.99/year</div>
+      <div class="an-plan">
+
+        <img class="col-1" alt="music icon" src="images/icon-music.svg">
+
+        <div class="col-2">
+        Annual Plan
+
+        <p>$59.99/year</p>
+        </div>
+
+        <div class="col-1"><a href="#">Change</a></div>
+
+      </div>
   
-  <a href="#">Proceed to Payment</a>
-  <a href="#">Cancel Order</a>
-</div>
+      <a href="#">Proceed to Payment</a>
+      <a href="#">Cancel Order</a>
+    </div>
+  </div>
 </body>
 </html>

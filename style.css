@@ -1,0 +1,54 @@
+*{
+    font-family:'Red Hat Display';
+    text-align: center;
+}
+h1{
+    font-size:22px;
+    font-weight:900;
+}
+p{
+    font-size:16px;
+    color:hsl(224, 23%, 55%);
+}
+.outer{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 600px) {
+    .outer{
+        background-image: url("images/pattern-background-mobile.svg");
+    }
+}
+.container{
+    width: 324px;
+    height: 570px;
+    left:720px;
+    background-color: white;
+    border-radius: 20px;
+}
+.col1{width:65px;}
+.col2{width:130p;}
+.col3{width:195px;}
+.col4{width:260px;}
+#img1{
+    width: 324px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#girl{
+    width:324px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#margin{
+    margin:37px;
+}
