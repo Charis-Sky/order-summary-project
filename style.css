@@ -3,7 +3,7 @@
     text-align: center;
 }
 h1{
-    font-size:22px;
+    font-size:24px;
     font-weight:900;
 }
 p{
@@ -37,6 +37,12 @@ p{
 .col2{width:130p;}
 .col3{width:195px;}
 .col4{width:260px;}
+[class^=col] {
+    float:left;
+}
+.block{
+    display: block;
+}
 #img1{
     width: 324px;
     border-top-left-radius: 20px;
